@@ -1,0 +1,17 @@
+{
+    "name": "xmp-faucet-web",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "@monaco-ex/coininfo": "^2.2.0-monacoex-1",
+        "@monaco-ex/pg-promise": "^6.5.2-6",
+        "bitcoinjs-lib": "^1.5.8",
+        "body-parser": "^1.18.2",
+        "counterparty-promise": "^1.3.3",
+        "express": "*",
+        "express-session": "*",
+        "passport": "*",
+        "passport-twitter": "*",
+        "request-promise-lite": "^0.12.0"
+    }
+}
