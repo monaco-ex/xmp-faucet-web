@@ -46,7 +46,7 @@ const configRoutes = (app, server, passport) => {
 
   app.get('/logout', (req, res) => {
     req.logout();
-    req.session.destroy(err => res.redirect('/'));
+    req.session.destroy(err => res.redirect('/bye.html'));
   });
 
   app.get('/auth/twitter', passport.authenticate('twitter'));
